@@ -7,7 +7,7 @@ class QuarterCarModel:
         self.m2 = m2
         self.k1 = k1
         
-        self.t_end = 5.0      # время моделирования
+        self.t_end = 5.0      # время моделирования, c
         self.dt = 0.001       # шаг по времени, с
         self.t = np.arange(0, self.t_end, self.dt)
         
