@@ -11,7 +11,7 @@ class Optimizer:
     
     def run_nelder_mead(self):
         print("\n")
-        print("МЕТОД НЕЛДЕРА-МИДА")
+        print("МЕТОД Nelder-Mead")
         print("="*60)
         
         bounds = [(15000, 50000), (1000, 8000)]
