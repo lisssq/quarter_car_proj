@@ -218,4 +218,4 @@ def plot_optimizer_comparison(optimization_results):
                     f'{val}', ha='center', va='bottom', fontsize=9)
     
     plt.tight_layout()
-    plt.show()
+    plt.show() 
